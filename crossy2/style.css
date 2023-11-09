@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Anonymous Bold";
+    src: url(./fonts/AnonymousPro-Bold.ttf);
+  }
+
+  body {
+    font-family: "Anonymous Pro", Bold;
+  }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__container, .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 24px 0;
+}
+
+.header__line {
+    background-color: #a1a6b4;
+    color: #a1a6b4;
+    height: 2px;
+    border: none; 
+    margin: 0;
+}
+
+.nav__social {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    font-family: "Anonymous Pro", Bold;
+}
+
+.nav__social li{
+    margin-left: 24px;
+}
+
+.header .nav__social li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-family: "Anonymous Pro", Bold;
+    font-size: 48px;
+    margin: 0;
+    padding: 25px 0px;
+  }
+
+.sneakers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.sneakers img {
+  width:  371px;
+  height: 254px;
+  padding-top: 30px;
+}
+
+.content {
+    background-color: #f1f1f1;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 371px;
+}
+
+.card .text{
+flex-direction: column;
+}
+
+.footer {
+    background-color: #121723;
+}
+
+.footer .nav__social li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__text {
+    color:#A1A6B4;
+    text-align: center;
+    padding: 21px 0;
+}
+
+.footer__line {
+    color: #e6e8ec;
+}
+
+.description {
+    padding: 32px 24px;
+    word-wrap: break-word;
+}
